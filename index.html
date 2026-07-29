@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf=8"/>
+        <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>Christmas Lights</title>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"/>
@@ -12,34 +12,29 @@
     <body>
         <main>
             <h1>Christmas Lights</h1>
-            <button class="start" type="button">Start</button>
-            <button class="stop" type="button">Stop</button>
-            <ul>
-                <li>
-                    <div class="light"></div>
-                </li>
-                <li>
-                    <div class="light"></div>
-                </li>
-                <li>
-                    <div class="light"></div>
-                </li>
-                <li>
-                    <div class="light"></div>
-                </li>
-                <li>
-                    <div class="light"></div>
-                </li>
-                <li>
-                    <div class="light"></div>
-                </li>
-                <li>
-                    <div class="light"></div>
-                </li>
-                <li>
-                    <div class="light"></div>
-                </li>
-            </ul>
+            <div class="controls">
+                <div class="buttons">
+                    <button class="start" type="button">Start</button>
+                    <button class="stop" type="button">Stop</button>
+                </div>
+                <div class="inputs">
+                    <label>Flickering Frequency:</label>
+                    <input class="frequency" type="range" min="1" max="5"/>
+                </div>
+            </div>
+            <div class="light-wire">
+                <div class="wire"></div>
+                <ul class="lights">
+                    <li class="red light"></li>
+                    <li class="green light"></li>
+                    <li class="blue light"></li>
+                    <li class="yellow light"></li>
+                    <li class="orange light"></li>
+                    <li class="purple light"></li>
+                    <li class="pink light"></li>
+                    <li class="cyan light"></li>
+                </ul>
+            </div>
         </main>
     </body>
 </html>
