@@ -9,5 +9,5 @@ Simulates a string of Christmas lights.
 - [x] User can change the interval of time controlling the change in intensity
 
 ## Useful Links
-[setInterval](https://developer.mozilla.org/en-US/docs/Web/API/Window/setInterval)
-[clearInterval](https://developer.mozilla.org/en-US/docs/Web/API/Window/clearInterval)
+- [setInterval](https://developer.mozilla.org/en-US/docs/Web/API/Window/setInterval)
+- [clearInterval](https://developer.mozilla.org/en-US/docs/Web/API/Window/clearInterval)
