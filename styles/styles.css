@@ -1,0 +1,154 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #020617;
+    font-family: "Inter", sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #162033;
+    padding: 4rem;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 1.5rem;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.buttons, .inputs {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #F8FAFC;
+    text-align: center;
+}
+
+label {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #F8FAFC;
+}
+
+button {
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0.75rem 1.75rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    color: #F8FAFC;
+    transition: background-color 0.25s ease, transform 0.25s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+input[type="range"] {
+    cursor: pointer;
+}
+
+.start {
+    background-color: #16A34A;
+}
+
+.start:hover {
+    background-color: #15803D;
+}
+
+.stop {
+    background-color: #DC2626;
+}
+
+.stop:hover {
+    background-color: #B91C1C;
+}
+
+.light-wire {
+    margin-top: 1rem;
+    position: relative;
+}
+
+.wire {
+    position: absolute;
+    height: 1.5rem;
+    left: 1.5rem;
+    right: 1.5rem;
+    border-bottom: 4px solid #365314;
+}
+
+.lights {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    z-index: 1;
+}
+
+.light {
+    border-radius: 50%;
+    width: 3rem;
+    aspect-ratio: 1;
+    transition: opacity 0.25s ease, box-shadow 0.3s ease;
+}
+
+.light.off {
+    opacity: 0.8;
+    box-shadow: none;
+}
+
+.red {
+    background-color: #EF4444;
+    box-shadow: 0 0 12px #EF4444, 0 0 24px #EF4444;
+}
+
+.green {
+    background-color: #22C55E;
+    box-shadow: 0 0 12px #22C55E, 0 0 24px #22C55E;
+}
+
+.blue {
+    background-color: #3B82F6;
+    box-shadow: 0 0 12px #3B82F6, 0 0 24px #3B82F6;
+}
+
+.yellow {
+    background-color: #FACC15;
+    box-shadow: 0 0 12px #FACC15, 0 0 24px #FACC15;
+}
+
+.orange {
+    background-color: #FB923C;
+    box-shadow: 0 0 12px #FB923C, 0 0 24px #FB923C;
+}
+
+.purple {
+    background-color: #A855F7;
+    box-shadow: 0 0 12px #A855F7, 0 0 24px #A855F7;
+}
+
+.pink {
+    background-color: #EC4899;
+    box-shadow: 0 0 12px #EC4899, 0 0 24px #EC4899;
+}
+
+.cyan {
+    background-color: #06B6D4;
+    box-shadow: 0 0 12px #06B6D4, 0 0 24px #06B6D4;
+}
